@@ -1,3 +1,11 @@
-nice
+# React + Tailwind New Year Countdown
 
-make yt video
+> https://countdown.ultirequiem.com
+
+[![Live Coding Screenshot](./live_coding.png)]()
+
+> [Live Coding]()
+
+## License
+
+MIT
