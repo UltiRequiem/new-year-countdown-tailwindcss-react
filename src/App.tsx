@@ -13,8 +13,8 @@ function App() {
 
   return (
     <div className="h-screen flex flex-col" onClick={() => confetti()}>
-      <div className="bg-yellow-400 text-center object-fill flex-1">
-        <h1 className="text-7xl p-5">🎉⁉</h1>
+      <div className="text-center object-fill flex-1">
+        <h1 className="bg-yellow-400 text-7xl p-5">🎉⁉</h1>
 
         <section className="grid grid-rows-2 grid-flow-col gap-3 p-6">
           <TimeBox unitName="Days" unit={time.days} />
@@ -23,7 +23,7 @@ function App() {
           <TimeBox unitName="Seconds" unit={time.seconds} />
         </section>
 
-        <p id="left" className="text-3xl">
+        <p className="text-3xl">
           Left for <span className="text-red-900">{nextYear}</span>.
         </p>
       </div>
